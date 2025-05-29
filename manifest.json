@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "BlankTab",
+  "version": "1.0",
+  "description": "空白新标签页",
+  "icons": {
+    "48": "icon.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "blank.html"
+  },
+  "permissions": []
+}
